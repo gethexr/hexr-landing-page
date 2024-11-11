@@ -1,40 +1,28 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Choose your Large Language-Model Provider",
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
+      "With hexr, you are not tied to a single LLM Provider. ",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Explore your codebase",
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+      "Sometimes it's tedious to provide Chat-Agents all the needed content, and sometimes, you don't even know if the context is there. Let the agent do the heavy lifting.",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "On-Demand Components",
+    title: "Let AI do your coding chores",
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
+      "Create predefined tasks and templates, that hexr can operate and execute on.",
     icon: "bx:bxs-data",
   },
   {
-    title: "Broad Integration",
+    title: "Free self-hosting",
     description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+      "You don't want to spend money on a subscription and feel confident to host it yourself? Go for it! hexr is open-source and free-to-use.",
     icon: "bx:bxs-bot",
-  },
-  {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
   },
 ];
 </script>
@@ -42,11 +30,11 @@ const features = [
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Let us take care of everything, or ... <br />
+      host it yourself!
     </h2>
     <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
+      <strong>hexr</strong> can be either self-hosted, or you just jump right in and let us take care of everything.
     </p>
   </div>
 
